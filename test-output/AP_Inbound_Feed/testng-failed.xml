@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [AP_Inbound_Feed]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="AP_Inbound_Feed(failed)">
+    <classes>
+      <class name="com.test.FieldMapTest">
+        <methods>
+          <include name="FieldTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.test.FieldMapTest -->
+    </classes>
+  </test> <!-- AP_Inbound_Feed(failed) -->
+</suite> <!-- Failed suite [AP_Inbound_Feed] -->
